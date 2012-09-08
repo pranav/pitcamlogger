@@ -1,6 +1,6 @@
 
 default:
-	./fetch_image.sh
+	./start.sh& 
 
 clean:
 	rm images/*

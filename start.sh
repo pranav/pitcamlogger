@@ -1,4 +1,6 @@
 #!/bin/sh
 
-(./fetch_image.sh) &
-sleep 15
+while [ 1 ]; do
+  ./fetch_image.sh
+  sleep 15
+done

@@ -1,3 +1,3 @@
 #!/bin/sh
 
-curl http://pitcam.ccs.neu.edu/new.jpeg > ./images/$(date +%s).jpeg
+wget http://pitcam.ccs.neu.edu/new.jpeg -O ./images/$(date +%s).jpeg 2> /dev/null
