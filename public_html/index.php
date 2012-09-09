@@ -61,7 +61,7 @@ $json = json_encode($images);
     </script>
   </head>
   <body>
-    <p>Speed: <b>33</b></p>
+    <p>Speed: <b>30 fps</b></p>
     <img src="images/pacman.gif" alt="video" id="video">
     <p>Use + and - to adjust speed. Hit space to pause.</p>
   </body>
