@@ -42,8 +42,8 @@ $json = json_encode($images);
       
       // Alter delay
       $(document).keydown(function(e){
-        if(e.keyCode == 109) speed++;
-        else if(e.keyCode == 107 && speed > 1) speed--;
+        if(e.keyCode == 109 || e.keyCode == 189) speed++;
+        else if((e.keyCode == 107 || e.keyCode == 187) && speed > 1) speed--;
         $("b").text(parseInt((1000/parseInt(speed)))+" fps");
       });
 
