@@ -1,5 +1,7 @@
 default:
+	mkdir ./public_html/images
 	./start.sh & 
 
 clean:
-	rm images/*
+	rm ./public_html/images/*
+	rmdir ./public_html/images
