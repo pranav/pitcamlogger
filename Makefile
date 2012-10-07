@@ -1,6 +1,5 @@
-
 default:
-	./start.sh& 
+	./start.sh & 
 
 clean:
 	rm images/*
